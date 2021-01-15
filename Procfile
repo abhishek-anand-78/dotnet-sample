@@ -1,1 +1,1 @@
-web: dotnet ./dotnet-sample/dotnet-sample.dll
+web: dotnet run --host 0.0.0.0 --port $PORT
